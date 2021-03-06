@@ -21,18 +21,12 @@ I.e. if `-d 40` and `-e 10` supplied and given a game, halfmoves up to the follo
 
 A quick and dirty hack to extend the polyglot book format to include more relevant information for human users. An entry consists of:
 
-`
+````
 uint64 Zobrist Hash
-
 uint16 move
-
 uint32 position count
-
 uint8 white winning percentage
-
-
 uint8 black winning percentage
-
 uint16 average elo
-`
+````
 Zobrist hash and move are calculated as in polyglot books.
