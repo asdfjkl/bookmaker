@@ -23,11 +23,16 @@ A quick and dirty hack to extend the polyglot book format to include more releva
 
 `
 uint64 Zobrist Hash
+
 uint16 move
+
 uint32 position count
+
 uint8 white winning percentage
-uint8 drawing percentage
+
+
 uint8 black winning percentage
+
 uint16 average elo
 `
 Zobrist hash and move are calculated as in polyglot books.
