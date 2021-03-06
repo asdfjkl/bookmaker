@@ -13,7 +13,7 @@ Options are:
 - `-d N` where `N` is the number of halfmoves that should be considered. If `e` is not used, all halfmoves up to `N` will be considered (fixed depth).
 - `-e N` where `N` is the number of halfmoves that should be followed from the last known ECO classified position.
 
-I.e. if `-d 40` and `-e 10` supplied and given a game, halfmoves up to the following depth are considered:
+I.e. if `-d 40` and `-e 10` are supplied and given a game, halfmoves up to the following depth are considered:
 
 - min(last known ECO classified position + 10, 40)
 
